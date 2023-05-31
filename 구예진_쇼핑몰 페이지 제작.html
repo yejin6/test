@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleShop</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-width: 992px;
+            font-family: "Helvetica";
+        }
+        
+        #navbar{
+            padding: 0 30px;
+            height: 60px;
+        }
+
+        #logo{
+            line-height: 60px;
+        }
+
+        #navbar img{
+            height: 20px;
+            vertical-align: middle;
+        }
+
+        #menu{
+            float: right;
+            margin: 0;
+        }
+
+        #menu li{
+            float: left;
+            list-style-type: none;
+            line-height: 60px;
+            
+        }
+
+        #menu li a{
+            font-weight: bold;
+            color: black;
+            font-size: 13px;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+
+        .hero-header{
+            background-image: url("https://i.postimg.cc/J0hymzGj/hero-header.jpg");
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position:center center;
+            height: 600px;
+        }
+
+        #products{
+            width: 735px;
+            margin-left: auto;
+            margin-right: auto; 
+        }
+
+        .product-grid{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .product{
+            width:225px;
+            text-align:center;
+            color:#545454;
+            text-decoration:none;
+            display:block;
+            float:left;
+            margin-left:10px;
+            margin-right:10px;
+            margin-bottom: 80px;
+        }
+
+        .name{
+            margin-top: 20px;
+            margin-bottom: 4px;
+        }
+        
+        .price{
+            margin: 0;
+        }
+
+        h2{
+            font-size: 24px;
+            font-weight: bold;
+            color: #545454;
+            text-align: center;
+            padding: 60px 0;
+        }
+
+
+        .clearfix{
+            clear:both;
+        }
+
+        #footer{
+            text-align: center;
+            margin-top:40px;
+            margin-bottom:80px;
+        }
+
+        #footer img{
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+        }
+
+        #footer a{
+            text-decoration:none;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div id="navbar">
+        <a href="#" id="logo" target="_blank">
+            <img src="https://i.postimg.cc/FR3dGBwJ/logo.png" alt="logo">
+        </a>
+
+        <ul id="menu">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </div>
+
+    <div class="hero-header"></div>
+
+    <div id="products">
+        <h2>Our New Products</h2>
+        <div class="product-grid">
+
+            <a href="#" class="product">
+                <img src="https://i.postimg.cc/4y1rvX52/sunglasses.jpg" alt="" width="225px">
+                <p class="name">Sunglasses</p>
+                <p class="price">49,000</p>
+            </a>
+            <a href="#" class="product">
+                <img src="https://i.postimg.cc/QVtXyS0D/classic-loafer.jpg" alt="" width="225px">
+                <p class="name">Tassel Loafer</p>
+                <p class="price">89,000</p>
+            </a> 
+            <a href="#" class="product">
+                <img src="https://i.postimg.cc/dkWJ0TQg/beige-bag.jpg" alt="" width="225px">
+                <p class="name">Beige Bag</p>
+                <p class="price">69,000</p>
+            </a>
+                    
+
+            <a href="#" class="product">
+                <img src="https://i.postimg.cc/bGgh62nd/sneakers.jpg" alt="" width="225px">
+                <p class="name">Sneakers</p>
+                <p class="price">79,000</p>
+            </a>
+            <a href="#" class="product">
+                <img src="https://i.postimg.cc/NyBt7x5W/slippers.jpg" alt="" width="225px">
+                <p class="name">Slippers</p>
+                <p class="price">29,000</p>
+            </a>    
+            <a href="#" class="product">
+                <img src="https://i.postimg.cc/4nqTFGYv/wrist-watch.jpg" alt="" width="225px">
+                <p class="name">Wrist Watch</p>
+                <p class="price">99,000</p>
+            </a>
+                    
+
+            <a href="#" class="product">
+                <img src="https://i.postimg.cc/zym83N5D/fedora-hat.jpg" alt="" width="225px">
+                <p class="name">Fedora Hat</p>
+                <p class="price">39,000</p>
+            </a>
+            <a href="#" class="product">
+                <img src="https://i.postimg.cc/QVtXyS0D/classic-loafer.jpg" alt="" width="225px">
+                <p class="name">Classic Loafer</p>
+                <p class="price">99,000</p>
+            </a>
+            <a href="#" class="product">
+                <img src="https://i.postimg.cc/ygNz2Yhj/pink-bag.jpg" alt="" width="225px">
+                <p class="name">Pink Bag</p>
+                <p class="price">79,000</p>
+            </a>
+
+        </div>        
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div id="footer">
+            <a href="http://facebook.com">
+                <img src="https://i.postimg.cc/vxcbxHcT/facebook.png" alt="">
+            </a>
+            <a href="http://instagram.com">
+                <img src="https://i.postimg.cc/rKRq8mBY/instagram.png" alt="">
+            </a>
+            <a href="http://twitter.com">
+                <img src="https://i.postimg.cc/jCLbX2Sd/twitter.png" alt="">
+            </a>
+    </div>
+</body>
+</html>
